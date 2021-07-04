@@ -1,0 +1,10 @@
+name: ChatPostProcessor
+version: 1.0
+main: ru.toliak.chatpostprocessor.ChatPostProcessor
+author: ToliakPurple
+
+commands:
+  chatpostprocessor:
+    description: Reloads the configuration file.
+    permission: chatpostprocessor.reload
+    usage: "Usage: /chatpostprocessor reload"

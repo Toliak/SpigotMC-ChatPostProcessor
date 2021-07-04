@@ -1,0 +1,26 @@
+# Debug messages
+debug: false
+
+# Result message format
+# {old-format} -- received format
+post-result: '{chat-global}{chat-local} {old-format}'
+
+# For capturing by priority
+# Priorities:
+## LOWEST
+## LOW
+## NORMAL
+## HIGH
+## HIGHEST
+## MONITOR
+
+by-priority:
+  HIGH:
+    - pattern: '[L]'    # What we are looking for
+      replace-by: '(Local Chat)'    # What we expect in the result
+      #      temp-string: '__LOCAL_CHAT_MSG'   # What temporary string will be used (default: random string)
+      #      ignore-case: false   # What temporary string will be used (default: false)
+      key: 'chat-local'           # The key for `post-result`. Only A-Z, a-z, -, _ can be used
+    - pattern: '[Shout]'
+      replace-by: '(Global Chat)'
+      key: 'chat-global'
