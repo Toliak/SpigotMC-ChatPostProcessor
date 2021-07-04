@@ -1,0 +1,4 @@
+local*.sh
+local*.bat
+target
+.idea
