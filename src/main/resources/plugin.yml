@@ -2,6 +2,7 @@ name: ChatPostProcessor
 version: 1.0
 main: ru.toliak.chatpostprocessor.ChatPostProcessor
 author: ToliakPurple
+api-version: 1.16
 
 commands:
   chatpostprocessor:
