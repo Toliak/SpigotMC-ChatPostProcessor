@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spigot.version>1.16.5-R0.1-SNAPSHOT</spigot.version>
-        <kotlin.version>1.7.10</kotlin.version>
+        <kotlin.version>1.8.10</kotlin.version>
         <main.class>ru.toliak.chatpostprocessor.ChatPostProcessor</main.class>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
     </properties>
